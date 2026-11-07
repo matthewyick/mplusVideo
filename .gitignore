@@ -1,0 +1,7 @@
+# OS 系統檔案
+.DS_Store
+Thumbs.db
+
+
+# 編輯器專屬設定
+.vscode/
