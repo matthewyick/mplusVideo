@@ -85,6 +85,7 @@
 	},
 	"ip_cameras": [
 		{
+               "cam_id": 1,
 			"cam_name": "Camera 1",
 			"rtsp_url": "rtsp://root:password@192.168.1.50/axis-media/media.amp",
 			"width": 1920,
@@ -94,6 +95,7 @@
 			"compression":"265"
 		},
 		{
+               "cam_id", 2,
 			"cam_name": "Camera 2",
 			"rtsp_url": "rtsp://root:password@192.168.1.80",
 			"width": 1920,
@@ -125,3 +127,5 @@
 *   **異常處理 (Try-Catch)**：
     *   所有 API 呼叫與資料庫查詢必須使用 `try/catch` 包覆。
     *   發生錯誤時，必須同時在命令列終端機顯示錯誤訊息，並將詳細錯誤軌跡 (Stack Trace) 寫入 `YYYY-MM-DD.log` 日誌中，確保程式不會無預警中斷崩潰。
+
+## 8. 請在 CMD 展出除錯信息。
