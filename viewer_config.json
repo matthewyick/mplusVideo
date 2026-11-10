@@ -1,0 +1,29 @@
+{
+  "server": {
+    "ip_address": "127.0.0.1",
+    "port": 80
+  },
+  "ip_cameras": [
+    {
+      "cam_id": 1,
+      "cam_name": "camera1",
+      "rtsp_url": "rtsp://tlm:tlm12345@192.168.50.224:554/cam/realmonitor?channel=1&subtype=0",
+      "width": 1920,
+      "height": 1080,
+      "brand": "AXIS",
+      "model": "1349",
+      "compression": "265"
+    },
+    {
+      "cam_id": 2,
+      "cam_name": "camera2",
+      "rtsp_url": "rtsp://admin:tlm12345@192.168.50.119:554/cam/realmonitor?channel=1&subtype=0",
+      "width": 1920,
+      "height": 1080,
+      "brand": "AXIS",
+      "model": "1349",
+      "compression": "265"
+    }
+  ],
+  "output_directory": "E:\\~NeoSoft\\PROJECTS\\mplusVideo_2025\\python\\root_mplusVideo"
+}

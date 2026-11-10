@@ -23,7 +23,7 @@
 * ** 檢查是否能產生剛輸入的路徑。如果不成功顯示錯誤信息請求再輸入或退出。
 * ** 如果成功產生剛輸入的路徑，在該路徑下產生 config, logs 兩個資料夾。
 在`mplusVideo_Recorder_Console.py` 的相同路徑產生 config.json ，內容是 "root_folder" 和它的值，值是剛輸入的路徑。
-* ** 如果 ("`root_folder`" + "\config") 的路徑沒有 config.json，展出視窗請求用戶輸入一到六個 RTSP URL 輸入匣，最少輸入一個 RTSP URL，和正確的 RTSP URL 格式。請確定防止注射攻擊。
+* ** 如果 ("`root_folder`" + "\config") 的路徑沒有 config.json，展出視窗請求用戶輸入六個 RTSP URL 輸入匣，最少輸入一個 RTSP URL，和正確的 RTSP URL 格式。請確定防止注射攻擊。
 * **  "cam_id" 值是輸入匣的 index。
 * **  "cam_name" 值是 "camera" + "cam_id"
 * **  "width": 1920

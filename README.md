@@ -13,6 +13,7 @@
 |------|------|------|
 | `mplusVideo_Recorder_2025.py` | 後端錄影（Daemon） | RTSP 拉流、異常偵測、寫入 MP4、寫入共享記憶體；CMD 輸入 `QUIT` 停止。 |
 | `mplusVideo_Recorder_Console.py` | 前端監控台（PyQt6） | 從共享記憶體讀取即時畫面與狀態，動態網格排列 1～6 路；關閉不影響錄影。 |
+| `mplusVideo_Viewer_2025.py` | 即時觀看（PyQt6 + python-mpv） | 直接以 mpv 播放 RTSP 影片與聲音（1/2/4/6 路），支援框選縮放、聲音互鎖、全螢幕 HUD；設定檔為同資料夾的 `viewer_config.json`。 |
 | `config.json` | 啟動器設定 | 只放 `root_folder`（可選）。實際攝影機設定在 `[root_folder]\\config\\config.json`。 |
 
 架構圖：
